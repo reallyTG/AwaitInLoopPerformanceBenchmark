@@ -2,7 +2,7 @@
 
 for i in {1..50}
 do
-  node copyDirScript.js
+  node copyDirScript-awaitInLoop.js
   rm -rf tstCpDir-cp
   sleep 2
 done
